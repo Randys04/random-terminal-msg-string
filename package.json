@@ -10,7 +10,10 @@
   "author": "Randy Steven Moya Mora <stevenmoya02@gmail.com>",
   "license": "MIT",
   "bin": {
-    "random-str-msg" : "./bin/global.js"
+    "random-str-msg": "./bin/global.js"
   },
-  "preferGlobal": true
+  "preferGlobal": true,
+  "dependencies": {
+    "g": "^2.0.1"
+  }
 }
