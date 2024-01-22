@@ -8,5 +8,9 @@
   },
   "keywords": [],
   "author": "Randy Steven Moya Mora <stevenmoya02@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "bin": {
+    "random-str-msg" : "./bin/global.js"
+  },
+  "preferGlobal": true
 }
